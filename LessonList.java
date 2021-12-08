@@ -1,8 +1,18 @@
 public class LessonList {
 
     public static void main(String[] args) {
+
+        //String num = "12345";
+        //System.out.print(Integer.parseInt(num)+"\n\n");
+
         GatherInfo gatherInfo = new GatherInfo();
-        int numOfDays = gatherInfo.getDays();
-        System.out.println(Integer.toString(numOfDays));
+
+        int monthNumber = gatherInfo.getMonth();
+        
+        int dayNumber = gatherInfo.getDay();
+
+        int lessonsNumber = gatherInfo.getNumberOfLessons();
+
+        new CreateResult(monthNumber, dayNumber, lessonsNumber);
     }
 }
