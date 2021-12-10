@@ -1,7 +1,8 @@
-package lessonlist;
+package mypackage;
+
 import java.util.Scanner;
 
-public class GatherInfo {
+class GatherInfo {
 
     Scanner sc = new Scanner(System.in);
 

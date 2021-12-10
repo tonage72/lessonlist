@@ -1,4 +1,5 @@
-package lessonlist;
+package mypackage;
+
 public class LessonList {
 
     public static void main(String[] args) {
