@@ -11,8 +11,9 @@ public class CreateResult {
             System.out.println(monthDays[monthNumber][0] + " " + dayNumber + " - " + "Ch " + Integer.toString(i + 1));
         
             if (dayNumber == Integer.parseInt(monthDays[monthNumber][1])) {
-                if (monthNumber == 12) {
+                if (monthNumber == 11) {
                     monthNumber = 0;
+                    dayNumber = 1;
                 } else {
                     monthNumber = monthNumber + 1;
                     dayNumber = 1;
