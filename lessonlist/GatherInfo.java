@@ -1,3 +1,4 @@
+package lessonlist;
 import java.util.Scanner;
 
 public class GatherInfo {

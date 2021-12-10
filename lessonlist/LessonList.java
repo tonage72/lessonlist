@@ -1,3 +1,4 @@
+package lessonlist;
 public class LessonList {
 
     public static void main(String[] args) {
